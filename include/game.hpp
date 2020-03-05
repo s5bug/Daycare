@@ -1,7 +1,10 @@
 #pragma once
 
 #include <array>
+#include <memory>
 #include <string>
+
+#include "save.hpp"
 
 namespace Daycare {
 
@@ -12,5 +15,7 @@ namespace Daycare {
     };
 
     extern const std::array<game, 6> games;
+
+    std::shared_ptr<Save> open(game game);
 
 }

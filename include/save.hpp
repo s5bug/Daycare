@@ -8,7 +8,10 @@ namespace Daycare {
 
     class Save {
         public:
-        // parse save
+
+        virtual ~Save() {}
+
+        // parse save (done by child constructor)
         // save save
         // get pokemon info
         // change pokemon info

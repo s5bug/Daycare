@@ -23,8 +23,8 @@ namespace Daycare {
     };
 
     const std::array<std::function<std::unique_ptr<Save> (const char*)>, 2> saves = {{
-        [](const char* v) { return std::make_unique<GenOneSave>(v); },
-        [](const char* v) { return std::make_unique<GenTwoSave>(v); }
+        std::make_unique<GenOneSave, const char*>,
+        std::make_unique<GenTwoSave, const char*>
     }};
 
 }
