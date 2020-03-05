@@ -48,3 +48,10 @@
 .history
 
 # End of https://www.gitignore.io/api/c++,visualstudiocode
+
+### 3ds ###
+
+*.3dsx
+*.elf
+*.smdh
+build/
