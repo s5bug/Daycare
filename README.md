@@ -13,4 +13,9 @@ Daycare is a free and open-source replacement to the Pokémon Bank app for the
 - Online synchronization
 - Switch frontend for Sword/Shield
 - DS/DSi frontend for Gen III/IV
+- Support for all of Gen I
+- Support for all of Gen II
+- Support for all of Gen III
+- Support for all of Gen IV
+- Support for Sword/Shield
 - Web frontend for flexing on small children at the local playground
